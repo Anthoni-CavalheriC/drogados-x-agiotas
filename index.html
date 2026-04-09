@@ -449,17 +449,32 @@ O mestre pode criar novas zonas de drink durante o combate (barman derruba bande
 
 <div class="mech">
 <div class="mech-name">🎲 Rodada da perseguição</div>
-<div class="mech-effect">A cada rodada, <strong>1 jogador assume o volante</strong> (podem revezar) e enfrenta um obstáculo. O jogador faz um teste baseado na ação escolhida:
+<div class="mech-effect">A cada rodada, o <strong>motorista comanda</strong> (podem revezar entre rodadas) e enfrenta o obstáculo. O motorista faz um teste baseado na ação escolhida:
 
 <table class="mech-table">
-<tr><th>Resultado</th><th>Efeito na distância</th></tr>
+<tr><th>Resultado do motorista</th><th>Efeito na distância</th></tr>
 <tr><td>Sucesso crítico</td><td>-2 distância (manobra insana, corta caminho)</td></tr>
 <tr><td>Sucesso</td><td>-1 distância (se aproxima da van)</td></tr>
 <tr><td>Falha</td><td>+1 distância (van abre vantagem)</td></tr>
 <tr><td>Falha crítica</td><td>+2 distância (bate em algo, precisa contornar)</td></tr>
 </table>
+</div>
+</div>
 
-Os outros 2 jogadores podem ajudar com ações de apoio (atirar no pneu, gritar direções, jogar objetos), dando vantagem no teste do motorista se forem criativos.
+<div class="mech">
+<div class="mech-name">🤝 Ação de apoio (jogadores não-motoristas)</div>
+<div class="mech-trigger">Ativa: toda rodada, os 2 jogadores que não estão no volante podem tentar ajudar</div>
+<div class="mech-effect">Cada jogador não-motorista pode fazer <strong>uma ação de apoio por rodada</strong> (atirar no pneu, gritar direções, jogar objetos, abrir caminho, hackear GPS, etc). Eles rolam seu teste primeiro, e o resultado modifica o teste do motorista:
+
+<table class="mech-table">
+<tr><th>Resultado do apoio</th><th>Modificador no teste do motorista</th></tr>
+<tr><td>Sucesso crítico</td><td><strong>+5</strong> no teste do motorista</td></tr>
+<tr><td>Sucesso</td><td><strong>+2</strong> no teste do motorista</td></tr>
+<tr><td>Falha</td><td><strong>-1</strong> no teste do motorista (atrapalha mais que ajuda)</td></tr>
+<tr><td>Falha crítica</td><td><strong>-3</strong> no teste do motorista (deu muito errado)</td></tr>
+</table>
+
+Os modificadores dos 2 jogadores se acumulam. Exemplo: um jogador acerta (+2) e o outro erra (-1) = motorista rola com +1 no teste.
 </div>
 </div>
 
@@ -475,8 +490,6 @@ Os outros 2 jogadores podem ajudar com ações de apoio (atirar no pneu, gritar 
 <tr><td>4</td><td>Van faz curva fechada num beco</td><td>Direção (acompanhar) ou Percepção (prever pra onde vai)</td></tr>
 <tr><td>5</td><td>Chuva repentina — pista molhada, visibilidade ruim</td><td>Direção (manter controle) ou Calma (não acelerar demais)</td></tr>
 </table>
-
-Ação bônus opcional por rodada: se um jogador não-motorista quiser tentar algo ousado (pular na van, atirar nos pneus, jogar algo na van), pode rolar um teste separado. Sucesso = -1 extra na distância. Falha = nada acontece. Falha crítica = o jogador se machuca (perde vida).
 </div>
 </div>
 
